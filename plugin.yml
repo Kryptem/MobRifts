@@ -1,0 +1,20 @@
+main: net.shyos.mobrifts.MobRiftsPlugin
+author: Shyos
+version: 0.1
+name: MobRifts
+
+commands:
+  mobrifts:
+    usage: /mobrifts
+    aliases: [mr,rifts]
+    
+permissions:
+  mobrifts.help:
+    default: op
+    description: Used to display the help page
+  mobrifts.list:
+    default: op
+    description: Used to list all RiftMobs
+  mobrifts.spawn:
+    default: op
+    description: Used to spawn RiftMobs

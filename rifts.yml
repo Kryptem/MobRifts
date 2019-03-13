@@ -1,0 +1,14 @@
+HellGate:
+  rift-spawn-delay: 600
+  player-mobspawn-radius: 5
+  mobs:
+    spawn-delay-seconds: 5
+    kill-to-close-amount: 2
+    max-mob-pack-size: 5
+  worlds:
+    - world
+    - world_nether
+  rift-mobs:
+    - GrimReaper
+    - Undead
+  spawn-message: "&cA &5%riftname% &chas been spotted at &5%location%&c!"

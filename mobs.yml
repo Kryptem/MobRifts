@@ -1,0 +1,38 @@
+Undead:
+  name-color: "&5"
+  entity-type: ZOMBIE
+  drops-loot: true
+  gear:
+    boots: none
+    leggings: none
+    chest: none
+    helmet: DIAMOND_HELMET
+  weapon: none
+  drops:
+    0:
+      item: APPLE
+      amount: 1
+      chance: 30
+  skills:
+    hearts: 20
+    effects-on-damage-player:
+      - HUNGER;15;1;40
+GrimReaper:
+  name-color: "&5"
+  entity-type: SKELETON
+  drops-loot: true
+  gear:
+    boots: none
+    leggings: none
+    chest: none
+    helmet: DIAMOND_HELMET
+  weapon: BOW
+  drops:
+    0:
+      item: ARROW
+      amount: 2
+      chance: 60
+  skills:
+    hearts: 25
+    effects-on-damage-player:
+      - WITHER;15;1;30
